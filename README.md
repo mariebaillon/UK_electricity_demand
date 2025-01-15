@@ -36,6 +36,6 @@ This type of approach is extremely flexible and accurate with an error of 3.25% 
 Creative Commons Public Licenses, see LICENSE.txt.
 
 
-## Suggestion for further developments
+## Suggestions for further developments
 * Improving the neural network by specifically modelling the disruption from major events, in particular the Covid-19 pandemic. An intervention model with a pulse function or step function that estimates the impact of lockdowns on the electricity demand, could be integrated as input to the neural network. 
 * Developing a model for the exogenous variables would allow to extend the predictions of the model to 2023 or beyond. 
