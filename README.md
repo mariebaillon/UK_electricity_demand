@@ -1,4 +1,4 @@
-# **Multiplicative decomposition model to predict the UK long-term electricity demand with monthly and hourly resolution**
+ **Multiplicative decomposition model to predict the UK long-term electricity demand with monthly and hourly resolution**
 
 ## Description
 
@@ -26,8 +26,10 @@ This type of approach is extremely flexible and accurate with an error of 3.25% 
 | 2-Dependent_variable_EDA.nb | Exploratory data analysis of the UK electricity demand dataset |
 | 3-Independent_variables_pre_proc.nb | Data pre-processing for all the independent variables |
 | 4-Variables_correlation | Study of correlation between the demand data and the independent variables, and between independent variables |
-| 5-Proposed_model_monthly_data.nb | Multiplicative decomposition model applied to monthly electricity demand |
-| 6-Proposed_model_hourly_data.nb | Multiplicative decomposition model applied to hourly electricity demand |
+| 5a-Proposed_model_monthly_data_description.nb | Multiplicative decomposition model applied to monthly electricity demand. One month ahead predictions.|
+| 5b-Proposed_model_monthly_data_long-term.nb | Multiplicative decomposition model applied to monthly electricity demand. Long term predictions.|
+| 6a-Proposed_model_hourly_data_description.nb | Multiplicative decomposition model applied to hourly electricity demand. One month ahead predictions.|
+| 6b-Proposed_model_hourly_data_long_term.nb | Multiplicative decomposition model applied to hourly electricity demand. Long term ahead predictions.|
 | 7-Baseline_model_monthly_and_hourly_data.nb | Traditional SARIMA model applied to monthly and hourly electricity demand |
 | 8-Sensitivity_studies_neural_network.nb | All sensitivities studies carried out on the neural network |
 | 9-Sensitivity_studies_trend_extraction.nb | Comparison of different methods to extract the trend from the time series |
